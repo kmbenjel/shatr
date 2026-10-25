@@ -15,7 +15,7 @@
 
 **English** · [العربية](README.ar.md) · [Authoring Guide](AUTHORING.md) · [Config JSON Schema](schema/poem.config.schema.json)
 
-[**🌐 Live Production Showcase 1: Mimiyyat Hmittou (hmittou.benjelloun.dev)**](https://hmittou.benjelloun.dev) · [**🌐 Showcase 2: Alfiyyat Ibn Malik (1,002 Verses)**](https://kmbenjel.github.io/alfiya)
+[**🌐 Live Production Showcase: Mimiyyat Hmittou (hmittou.benjelloun.dev)**](https://hmittou.benjelloun.dev)
 
 </div>
 
@@ -111,7 +111,6 @@ npx shatr pdf       # Export print-ready PDFs (A4 + mobile booklet) into content
 | Publication | Verses | Live URL | Source Repository |
 |---|---|---|---|
 | **القصيدة الميمية التوسلية** — Shaykh Ahmad Hmittou | **291 *abyāt*** (582 hemistichs) + scholarly biography, SoundCloud audio & print PDF | [**hmittou.benjelloun.dev**](https://hmittou.benjelloun.dev) | [`kmbenjel/hmittou`](https://github.com/kmbenjel/hmittou) |
-| **ألفية ابن مالك في النحو والصرف** — Ibn Malik | **1,002 *abyāt*** (2,004 hemistichs) across 81 grammatical chapters | [**kmbenjel.github.io/alfiya**](https://kmbenjel.github.io/alfiya) | [`kmbenjel/alfiya`](https://github.com/kmbenjel/alfiya) |
 
 ---
 
