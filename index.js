@@ -6,9 +6,6 @@
  * - Schema-validated poem configuration (schema/poem.config.schema.json)
  * - Installable offline-first PWA, JSON-LD CreativeWork/Poem SEO, and 100/100 PageSpeed
  * - Print-ready PDF booklet generator (A4 + mobile reading edition)
- *
- * Live Production Showcase:
- * - https://hmittou.benjelloun.dev (Mimiyyat Ahmad Hmittou — 291 verses)
  */
 
 export const SHATR_ENGINE_SPEC = {
@@ -23,12 +20,5 @@ export const SHATR_ENGINE_SPEC = {
     "npx shatr studio",
     "npx shatr pdf"
   ],
-  themes: ["stone", "sepia", "midnight", "rawda"],
-  liveShowcases: [
-    {
-      title: "Mimiyyat Ahmad Hmittou (القصيدة الميمية التوسلية — 291 bayt)",
-      url: "https://hmittou.benjelloun.dev",
-      repo: "https://github.com/kmbenjel/hmittou"
-    }
-  ]
+  themes: ["stone", "sepia", "midnight", "rawda"]
 };

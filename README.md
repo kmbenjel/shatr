@@ -15,7 +15,7 @@
 
 **English** · [العربية](README.ar.md) · [Authoring Guide](AUTHORING.md) · [Config JSON Schema](schema/poem.config.schema.json)
 
-[**🌐 Live Production Showcase: Mimiyyat Hmittou (hmittou.benjelloun.dev)**](https://hmittou.benjelloun.dev)
+[**🌐 Live Example (hmittou.benjelloun.dev)**](https://hmittou.benjelloun.dev)
 
 </div>
 
@@ -103,14 +103,6 @@ npx shatr pdf       # Export print-ready PDFs (A4 + mobile booklet) into content
 - **Deterministic Validation (`npx shatr check`)**: Fails fast in CI if any section has an odd number of hemistich lines (dangling *shaṭr*), validates `content/poem.config.json` against [`schema/poem.config.schema.json`](schema/poem.config.schema.json), and warns on under-vocalized lines.
 - **100/100 Google PageSpeed & Strict Security**: Self-hosted subset `Amiri` web font with `font-display: swap` and preload hints, strict Content-Security-Policy (CSP), semantic ARIA landmarks, and reduced-motion support.
 - **AI-Agent Native (`AGENTS.md` / `CLAUDE.md` / `GEMINI.md`)**: Every scaffolded project ships pre-configured instructions for Claude Code, Google Antigravity, Gemini CLI, Copilot, and Cursor so AI agents preserve vocalization (*tashkīl*) and poetic meter without corrupting verses.
-
----
-
-## 🌐 Live Production Sites Powered by `shatr`
-
-| Publication | Verses | Live URL | Source Repository |
-|---|---|---|---|
-| **القصيدة الميمية التوسلية** — Shaykh Ahmad Hmittou | **291 *abyāt*** (582 hemistichs) + scholarly biography, SoundCloud audio & print PDF | [**hmittou.benjelloun.dev**](https://hmittou.benjelloun.dev) | [`kmbenjel/hmittou`](https://github.com/kmbenjel/hmittou) |
 
 ---
 
